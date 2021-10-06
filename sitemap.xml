@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://lorebucs.github.io/deepdives/markdown/2020/01/14/test-markdown-post.html</loc>
+<loc>https://deepdives.xyz/markdown/2020/01/14/test-markdown-post.html</loc>
 <lastmod>2020-01-14T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://lorebucs.github.io/deepdives/jupyter/2020/02/20/test.html</loc>
+<loc>https://deepdives.xyz/jupyter/2020/02/20/test.html</loc>
 <lastmod>2020-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://lorebucs.github.io/deepdives/about/</loc>
+<loc>https://deepdives.xyz/about/</loc>
 </url>
 <url>
-<loc>https://lorebucs.github.io/deepdives/</loc>
+<loc>https://deepdives.xyz/</loc>
 </url>
 <url>
-<loc>https://lorebucs.github.io/deepdives/search/</loc>
+<loc>https://deepdives.xyz/search/</loc>
 </url>
 <url>
-<loc>https://lorebucs.github.io/deepdives/categories/</loc>
+<loc>https://deepdives.xyz/categories/</loc>
 </url>
 </urlset>

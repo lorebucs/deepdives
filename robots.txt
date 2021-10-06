@@ -1,1 +1,1 @@
-Sitemap: https://lorebucs.github.io/deepdives/sitemap.xml
+Sitemap: https://deepdives.xyz/sitemap.xml
