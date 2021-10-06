@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Matrix differentiation | deepdives</title>
+<title>Title | deepdives</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Matrix differentiation" />
+<meta property="og:title" content="Title" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Machine learning in deep dives." />
 <meta property="og:description" content="Machine learning in deep dives." />
@@ -16,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-10-05T00:00:00-05:00" />
 <script type="application/ld+json">
-{"datePublished":"2021-10-05T00:00:00-05:00","url":"https://deepdives.xyz/2021/10/05/Matrix-Differentiation.html","@type":"BlogPosting","headline":"Matrix differentiation","dateModified":"2021-10-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://deepdives.xyz/2021/10/05/Matrix-Differentiation.html"},"description":"Machine learning in deep dives.","@context":"https://schema.org"}</script>
+{"datePublished":"2021-10-05T00:00:00-05:00","url":"https://deepdives.xyz/2021/10/05/Matrix-Differentiation.html","@type":"BlogPosting","headline":"Title","dateModified":"2021-10-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://deepdives.xyz/2021/10/05/Matrix-Differentiation.html"},"description":"Machine learning in deep dives.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://deepdives.xyz/feed.xml" title="deepdives" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,7 +87,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Matrix differentiation</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-05T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-05T00:00:00-05:00" itemprop="datePublished">
         Oct 5, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -133,9 +133,32 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&gt;</span> <span class="s2">&quot;Awesome summary&quot;</span>
+
+<span class="o">-</span> <span class="n">toc</span><span class="p">:</span><span class="n">true</span><span class="o">-</span> <span class="n">branch</span><span class="p">:</span> <span class="n">master</span>
+<span class="o">-</span> <span class="n">badges</span><span class="p">:</span> <span class="n">true</span>
+<span class="o">-</span> <span class="n">comments</span><span class="p">:</span> <span class="n">true</span>
+<span class="o">-</span> <span class="n">author</span><span class="p">:</span> <span class="n">Lorenzo</span> <span class="n">Bucci</span>
+<span class="o">-</span> <span class="n">categories</span><span class="p">:</span> <span class="p">[</span><span class="n">fastpages</span><span class="p">,</span> <span class="n">jupyter</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="The-Jacobian-matrix">The Jacobian matrix<a class="anchor-link" href="#The-Jacobian-matrix"> </a></h3><p>Let $\psi:\mathbb{R}^n \rightarrow \mathbb{R}^m$, or equivalently:</p>
+<h2 id="The-Jacobian-matrix">The Jacobian matrix<a class="anchor-link" href="#The-Jacobian-matrix"> </a></h2><p>Let $\psi:\mathbb{R}^n \rightarrow \mathbb{R}^m$, or equivalently:</p>
 <p><br /></p>
 $$  
 \psi(\boldsymbol{x}) 
@@ -193,13 +216,13 @@ $$<p><br /></p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="The-Jacobian-of-the-dot-product">The Jacobian of the dot product<a class="anchor-link" href="#The-Jacobian-of-the-dot-product"> </a></h3>
+<h2 id="The-Jacobian-of-the-dot-product">The Jacobian of the dot product<a class="anchor-link" href="#The-Jacobian-of-the-dot-product"> </a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="The-Jacobian-of-a-linear-form">The Jacobian of a linear form<a class="anchor-link" href="#The-Jacobian-of-a-linear-form"> </a></h3><p>Let $\boldsymbol{y} = A \boldsymbol{x}$ be a linear form with $\boldsymbol{y} \in \mathbb{R}^m$, $A \in \mathbb{R}^{m \times n}$ and $\boldsymbol{x} \in \mathbb{R}^n$, or equivalently:</p>
+<h2 id="The-Jacobian-of-a-linear-form">The Jacobian of a linear form<a class="anchor-link" href="#The-Jacobian-of-a-linear-form"> </a></h2><p>Let $\boldsymbol{y} = A \boldsymbol{x}$ be a linear form with $\boldsymbol{y} \in \mathbb{R}^m$, $A \in \mathbb{R}^{m \times n}$ and $\boldsymbol{x} \in \mathbb{R}^n$, or equivalently:</p>
 <p><br /></p>
 $$  
 \boldsymbol{y}
@@ -239,7 +262,7 @@ $$<p><br /></p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="The-Jacobian-of-Af(x)">The Jacobian of Af(<strong>x</strong>)<a class="anchor-link" href="#The-Jacobian-of-Af(x)"> </a></h3><p>Given $A f(\boldsymbol{x})$ with $A \in \mathbb{R}^{m \times n}$ and $f(\boldsymbol{x}):\mathbb{R}^l \rightarrow \mathbb{R}^n$, or equivalently:</p>
+<h2 id="The-Jacobian-of-Af(x)">The Jacobian of Af(<strong>x</strong>)<a class="anchor-link" href="#The-Jacobian-of-Af(x)"> </a></h2><p>Given $A f(\boldsymbol{x})$ with $A \in \mathbb{R}^{m \times n}$ and $f(\boldsymbol{x}):\mathbb{R}^l \rightarrow \mathbb{R}^n$, or equivalently:</p>
 <p><br /></p>
 $$  
 Af(\boldsymbol{x})
